@@ -33,7 +33,10 @@ function Books(props) {
             if (book.volumeInfo.description) {
                 description = book.volumeInfo.description;
             }
+             
+            let infoLink = book.volumeInfo.infoLink;
             
+
             return <Book 
             title = {book.volumeInfo.title}
             authors = {authors}
@@ -41,6 +44,7 @@ function Books(props) {
             description = {description}
             thumbnail = {thumbnail}
             key = {book.id}
+            infoLink = {infoLink}
             />
 
         })

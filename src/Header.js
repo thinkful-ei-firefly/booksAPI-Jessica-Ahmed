@@ -32,12 +32,12 @@ render() {
       
       <h1>Google Book Search</h1>
       <form onSubmit={this.submitFetch}>
-        <div className= "search-contaier">
+        <li className= "search-contaier">
           <label htmlFor="search">Search:</label>
           <input id="search" placeholder="search for a book" type="text" ref="query" required></input>
           <button type="submit">Search</button>
-        </div>
-        <div className="filter-bar">
+        </li>
+        <li className="filter-bar">
           <label htmlFor="printType">Print Type:</label>
           <select id="printType" ref="printType">
               <option value="all">All</option>
@@ -53,7 +53,7 @@ render() {
               <option value="paid-ebooks">Paid eBooks</option>
               <option value="partial">Partial eBooks</option>
           </select>
-        </div>
+        </li>
       </form>
     </header>
   );

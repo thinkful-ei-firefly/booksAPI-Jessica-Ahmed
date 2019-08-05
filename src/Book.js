@@ -13,7 +13,7 @@ function Book(props) {
         <p>Price: {props.price}</p>
 
         <p>Description: {props.description}</p>
-      
+        <a href={props.infoLink}>More Info</a>
     </div>
   );
 }

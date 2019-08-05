@@ -19,6 +19,7 @@ form{
 }
 label {
     font-size: 1.3rem;
+    margin-left: 1rem;
 }
 button {
     font-size: 0.9rem;
@@ -31,12 +32,15 @@ button:hover {
     /* width: 20%; */
     background-color: lightyellow;
     border-radius: 2px;
+     font-size: 0.9rem;
+     margin: 0.4rem;
 }
 select {
     width: 20%;
     /* background-color: lightyellow; */
     font-size: 0.9rem;
     border-radius: 2px;
+    /* margin: 0.4rem; */
 }
 
 .search-contaier {
@@ -46,4 +50,7 @@ select {
 .filter-bar {
     padding: 0.5rem;
     background-color:lightgrey;
+}
+li {
+    list-style-type:none;
 }
