@@ -1,0 +1,9 @@
+.thumbnail-img {
+    float: left;
+    /* display: inline; */
+    margin: 5px;
+}
+
+.container{
+    border-top: 1px solid lightgray;
+}

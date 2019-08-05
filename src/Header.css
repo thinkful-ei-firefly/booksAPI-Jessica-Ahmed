@@ -6,14 +6,14 @@ h1 {
     background-color: black;
     color: white;
     padding: 3rem;
-    margin: 0px 0px 1rem;;
+    margin: 0px 0px 0rem;;
     font-weight: 700;
     font-size: 2.5rem;
 }
 form{
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
+    flex-direction: column;
     flex-wrap: wrap;
     /* background-color: grey; */
 }
@@ -28,7 +28,7 @@ button:hover {
     border: 2px solid skyblue;
 }
 #search {
-    width: 20%;
+    /* width: 20%; */
     background-color: lightyellow;
     border-radius: 2px;
 }
@@ -37,4 +37,13 @@ select {
     /* background-color: lightyellow; */
     font-size: 0.9rem;
     border-radius: 2px;
+}
+
+.search-contaier {
+    padding: 0.5rem;
+    background-color: grey;
+}
+.filter-bar {
+    padding: 0.5rem;
+    background-color:lightgrey;
 }
