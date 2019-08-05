@@ -5,13 +5,6 @@ class Header extends React.Component {
         super(props)
     
     }
-/**
- * 
- * GET https://www.googleapis.com/books/v1/volumes?q=mistborn&filter=ebooks&printType=books&key=AIzaSyDKJAJyYsPgoDTpJhNJMw4zN7jf2TZPwrs
-
-Accept: application/json
- */
-
 
 APIKey = 'AIzaSyDKJAJyYsPgoDTpJhNJMw4zN7jf2TZPwrs';
 BASE_URL = 'https://www.googleapis.com/books/v1/volumes?';
