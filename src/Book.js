@@ -2,7 +2,7 @@ import React from 'react';
 
 
 function Book(props) {
-    //authors, title, price, description, thumbnail, id
+    
   return (
     <div>
         <h2>{props.title}</h2>
