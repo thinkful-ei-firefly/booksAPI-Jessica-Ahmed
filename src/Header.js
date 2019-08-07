@@ -7,7 +7,7 @@ class Header extends React.Component {
     
     }
 
-APIKey = 'AIzaSyDKJAJyYsPgoDTpJhNJMw4zN7jf2TZPwrs';
+APIKey = 'Your Api Key Here';
 BASE_URL = 'https://www.googleapis.com/books/v1/volumes?';
 
 submitFetch = event => {
